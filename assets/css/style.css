@@ -38,9 +38,9 @@ header{
     position: relative;
 }
 
-.navbar-indicator:hover{
-
-    background-color: #eee;
+.navbar-indicator:hover::first-line{
+   font-weight: bold;
+    color: rgb(40, 181, 216);
 }
 section{
     height: 960px;
