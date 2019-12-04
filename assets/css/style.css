@@ -1,117 +1,142 @@
-
-h1{
+h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
 }
-h2,h3,p{
-    font-family: 'Georgia', Times, Times New Roman, serif;
 
+h2, h3, p {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
-body{
+
+body {
     color: #777777;
     background-color: #e9ecef;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     box-sizing: border-box;
     text-align: center;
-   }
-header{
-    background-image: url("../images/header.jpg");
-    border-color: #cccccc;
-    background-color: #ffffff;   
 }
 
-.navbar{
+header {
+    background-image: url("../images/header.jpg");
+    border-color: #cccccc;
+    background-color: #ffffff;
+    height: 120px;
+}
+
+article {
+    float: left;
+}
+
+.table{
+    float: left;
+}
+
+content {
+    display: inline-block;
+}
+
+.navbar {
     width: 960px;
     display: inline-block;
 }
-.logo{
+
+.logo {
     text-align: center;
     padding-top: 15px;
-    width:15%;
-    height: 30px;
+    height: 105px;
     float: left;
-    font-size: 23px;
-   }
-.navbar-indicator{
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: none;
+}
+
+.navbar-indicator {
     float: right;
     padding: 20px;
     position: relative;
+    font-size: 20px;
+    color: #4aaaa5;
+    font-family: 'Sigmar One', cursive;
 }
 
-.navbar-indicator:hover::first-line{
-   font-weight: bold;
+.navbar-indicator:hover::first-line {
+    font-weight: bold;
+    font-size: 40px;
     color: rgb(40, 181, 216);
 }
-section{
+
+section {
     height: 960px;
     padding-left: 15px;
-    margin-top:20px;
+    margin-top: 20px;
     display: inline-table;
     width: 960px;
-    background-color: #ffffff;   
+    background-color: #ffffff;
     border-color: #dddddd;
-   }
-article{
+}
+
+article {
     float: left;
-    width: 30%;  
+    width: 100%;
     text-align: left;
     padding: 20px;
     border: solid #eee;
     border-width: 2px 0 0 0;
 }
 
-content{
-    width: 70%;   
+content {
+    width: 70%;
     text-align: left;
     padding: 20px;
     border: solid #eee;
     border-width: 2px 0 0 0;
 }
-a{
+
+a {
     text-decoration: none;
-
 }
-p{
+
+p {
     font-style: italic;
     text-align: left;
     font-size: 20px;
     text-decoration: none;
     line-height: 1.5;
 }
-.profilephoto{
-    
+
+.profilephoto {
     height: 200px;
-     width: 300px;
+    width: 300px;
 }
 
-.contact{
-    padding-top:20px;
+.contact {
+    padding-top: 20px;
     border: solid #eee;
     border-width: 2px 0 0 0;
-
 }
 
-footer, .push{
-    border-top: 8px solid #eee;
+footer, .push {
+    height: 25px;
+    border-top: 10px solid #4aaaa5;
     margin-top: 20%;
     background-color: #666666;
 }
-.contact-control{
+
+.contact-control {
     width: 960px;
-    background:transparent;
-    border:none;
-    outline:none;
+    background: transparent;
+    border: none;
+    outline: none;
     border-bottom: 1px solid gray;
     margin-bottom: 16px;
     font-size: 18px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
 
-.massage{
+.massage {
     width: 960px;
-    background:transparent;
+    background: transparent;
     min-height: 75px;
     outline: none;
     resize: none;
@@ -121,8 +146,8 @@ footer, .push{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.btn{
-    background:#4aaaa5;
+.btn {
+    background: #2699ab;
     border-color: transparent;
     color: #fff;
     font-size: 20px;
@@ -132,6 +157,12 @@ footer, .push{
     margin-top: 20px;
 }
 
-.btn:hover{
-    background-color:#e40505;
+.btn:hover {
+    background-color: #e40505;
+}
+
+.Protfolio-content{
+float: left;
+padding: 20px;
+border-radius: 0.25rem;
 }
